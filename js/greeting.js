@@ -7,11 +7,8 @@ const USERNAME_KEY = "username";
 
 function paintGreetings(username)
 {
-    
-
-    
     //string 안에 변수넣기: &{}, 따옴표(') 아니고 백틱(`)임에 주의하기
-    greeting.innerText = `Hello, ${username} `; //새로고침 시 save된 username만 남으니까!
+    greeting.innerText = `${username}의 SPACE`; //새로고침 시 save된 username만 남으니까!
     greeting.classList.remove(HIDDEN_CLASSNAME);//숨겨진 텍스트(유저에게 인사) 보여주기
 }
 function onLoginSubmit(event){ //argument에. 반환값이 방금 일어난 event가 object로 저장됨 
