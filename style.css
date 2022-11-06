@@ -1,5 +1,13 @@
+.hidden{
+    display: none; 
+    /*
+    hidden: 공간은 있으나 시각적으로 사라짐
+    none: 공간 사라짐
+    */
+}
 
 /*이미지를 배경화면처럼 넣기*/
+/*
 img {
     position:absolute;
     width:100%;
@@ -11,3 +19,4 @@ img {
     z-index: -1;
     opacity:70%;
     }
+    */
